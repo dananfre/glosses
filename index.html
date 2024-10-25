@@ -9,13 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script type="module" src="script.js"></script>
-    <svg width="0" height="0">
-        <defs>
-          <clipPath id="buttonClip">
-            <path d="M1.83,2.97v26.76c0,.74.78,1.23,1.45.9l26.76-13.38c.74-.37.74-1.42,0-1.79L3.28,2.07c-.67-.33-1.45.15-1.45.9Z"/>
-          </clipPath>
-        </defs>
-      </svg>
 </head>
 <body>
     <main>
@@ -24,22 +17,40 @@
         </div>
         <div id="content">    
             <div id='play'>
+                
                 <div id='active'>
-                    
-                    <button id='start'></button>
+                    <button id='start'>
+                        <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"> 
+                            <path class="scale-on-hover" d="M7.96,7.09v15.82c0,.44.46.73.86.53l15.82-7.91c.44-.22.44-.84,0-1.06l-15.82-7.91c-.4-.2-.86.09-.86.53Z" fill="rgb(214, 117, 1)" />  
+                            <path d="M15,29.94C6.76,29.94.06,23.24.06,15S6.76.06,15,.06s14.94,6.7,14.94,14.94-6.7,14.94-14.94,14.94ZM15,1.56C7.59,1.56,1.56,7.59,1.56,15s6.03,13.44,13.44,13.44,13.44-6.03,13.44-13.44S22.41,1.56,15,1.56Z" fill="rgb(214, 117, 1)"/>
+                        </svg>
+                    </button>
                     <h3 id='active-list'> </h3>
                 </div>
-                <div id='user'>
-                    <div id="user-input-side">
-                        <p id="gloss-swedish">temp</p>
-                        <input type="text" id="user-input" placeholder="Skriv ditt svar här">
-                        <p id="feedback">temp</p>
-                        <h3 id="score">0/0</p>
-                    </div>
-                    <div id="user-submit-side">
-                        <button id="submit-btn">Rätta</button>
-                        <button id="new-gloss">Ny glosa</button>
-                    </div>    
+                
+                <div id='question'>
+                    <p id="gloss-swedish"></p>
+                </div>
+                
+                <div id='user-interaction'>
+                    <input type="text" id="user-input" placeholder="Skriv ditt svar här">
+                        <button id="submit-btn">
+                            <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                                <path d="M15,29.94C6.76,29.94.06,23.24.06,15S6.76.06,15,.06s14.94,6.7,14.94,14.94-6.7,14.94-14.94,14.94ZM15,1.56C7.59,1.56,1.56,7.59,1.56,15s6.03,13.44,13.44,13.44,13.44-6.03,13.44-13.44S22.41,1.56,15,1.56Z" fill="rgb(214, 117, 1)"/>
+                                <path class="scale-on-hover" d="M13.82,23.71c-.66,0-1.3-.3-1.72-.81l-5.98-7.27c-.5-.61-.42-1.52.2-2.02.61-.51,1.52-.42,2.02.2l5.42,6.58,7.04-10.98c.43-.67,1.32-.86,1.98-.43.67.43.86,1.32.43,1.98l-7.52,11.72c-.38.6-1.03.98-1.74,1.02-.04,0-.09,0-.13,0Z" fill="rgb(214, 117, 1)"/>
+                            </svg>     
+                        </button>
+                        <button id="new-gloss">
+                            <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                                <path class="scale-on-hover" d="M19.8,6.4c-.4,0-.8.3-.8.8v6.8l-9.3-7.5c-.4-.2-.9,0-.9.5v15.8c0,.4.5.7.9.5l9.3-7.5v6.8c0,.4.3.8.8.8s.8-.3.8-.8V7.1c0-.4-.3-.8-.8-.8Z" fill="rgb(214, 117, 1)"/>
+                                <path d="M15,29.9C6.8,29.9,0,23.2,0,15S6.8,0,15,0s14.9,6.7,14.9,14.9-6.7,14.9-14.9,14.9ZM15,1.6C7.6,1.6,1.6,7.6,1.6,15s6,13.4,13.4,13.4,13.4-6,13.4-13.4S22.4,1.6,15,1.6Z" fill="rgb(214, 117, 1)"/>
+                            </svg>     
+                        </button>
+                </div>
+                
+                <div id='user'> 
+                    <p id="feedback">temp</p>
+                    <h3 id="score">0/0</p>
                 </div>        
             </div>    
             <div id='menu'>    
