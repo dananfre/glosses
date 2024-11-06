@@ -1536,3 +1536,114 @@ export let freeTimeSentences = [
         spanish: 'ellos miran los pájaros en el parque'
     }
 ]
+
+export let foodAndDrinkSentences = [
+    {
+        swedish: 'jag äter en smörgås',
+        spanish: 'yo como un sándwich'
+    },
+    {
+        swedish: 'jag dricker läsk',
+        spanish: 'yo bebo refresco'
+    },
+    {
+        swedish: 'vi äter pommes',
+        spanish: 'nosotros comemos papas fritas'
+    },
+    {
+        swedish: 'hon dricker juice',
+        spanish: 'ella bebe jugo'
+    },
+    {
+        swedish: 'de äter ris',
+        spanish: 'ellos comen arroz'
+    },
+    {
+        swedish: 'vi lagar kött',
+        spanish: 'nosotros cocinamos carne'
+    },
+    {
+        swedish: 'han äter kyckling',
+        spanish: 'él come pollo'
+    },
+    {
+        swedish: 'vi brukar dricka kaffe på morgonen',
+        spanish: 'solemos beber café en la mañana'
+    },
+    {
+        swedish: 'du måste äta mer sallad',
+        spanish: 'tienes que comer más ensalada'
+    },
+    {
+        swedish: 'jag kan laga pasta',
+        spanish: 'puedo cocinar pasta'
+    },
+    {
+        swedish: 'de vill ha juice och vatten',
+        spanish: 'quieren jugo y agua'
+    },
+    {
+        swedish: 'vi måste göra en smörgås till henne',
+        spanish: 'tenemos que hacer un sándwich para ella'
+    },
+    {
+        swedish: 'han brukar äta kött till middag',
+        spanish: 'él suele comer carne en la cena'
+    },
+    {
+        swedish: 'jag gör sallad till lunch',
+        spanish: 'hago ensalada para el almuerzo'
+    },
+    {
+        swedish: 'vi brukar äta fisk på fredagar',
+        spanish: 'solemos comer pescado los viernes'
+    },
+    {
+        swedish: 'de kan beställa pommes',
+        spanish: 'ellos pueden pedir papas fritas'
+    },
+    {
+        swedish: 'du måste dricka vatten varje dag',
+        spanish: 'tienes que beber agua todos los días'
+    },
+    {
+        swedish: 'vi vill äta pasta till middag',
+        spanish: 'queremos comer pasta para la cena'
+    },
+    {
+        swedish: 'hon kan laga ris till lunch',
+        spanish: 'ella puede cocinar arroz para el almuerzo'
+    }
+];
+
+export let foodDishes = [
+    { swedish: "smörgås", spanish: "bocadillo" },
+    { swedish: "pizza", spanish: "pizza" },
+    { swedish: "pasta", spanish: "pasta" },
+    { swedish: "pommes", spanish: "patatas fritas" },
+    { swedish: "köttbullar", spanish: "albóndigas" },
+    { swedish: "sallad", spanish: "ensalada" },
+    { swedish: "ris", spanish: "arroz" },
+    { swedish: "kyckling", spanish: "pollo" },
+    { swedish: "grillad lax", spanish: "salmón a la parrilla" },
+    { swedish: "hamburgare", spanish: "hamburguesa" },
+    { swedish: "korv med bröd", spanish: "perrito caliente" },
+    { swedish: "soppa", spanish: "sopa" },
+    { swedish: "gröt", spanish: "gachas" },
+    { swedish: "fisk", spanish: "pescado" },
+    { swedish: "fläskkött", spanish: "cerdo" },
+    { swedish: "potatismos", spanish: "puré de patatas" },
+    { swedish: "kött", spanish: "carne" },
+    { swedish: "lasagne", spanish: "lasaña" },
+    { swedish: "stek", spanish: "asado" },
+    { swedish: "kanelbulle", spanish: "bollo de canela" },
+    { swedish: "tacos", spanish: "tacos" },
+    { swedish: "enchiladas", spanish: "enchiladas" },
+    { swedish: "tortilla", spanish: "tortilla" },
+    { swedish: "paj", spanish: "pastel" },
+    { swedish: "gryta", spanish: "guiso" },
+    { swedish: "köttfärssås", spanish: "salsa boloñesa" },
+    { swedish: "räkor", spanish: "gambas" },
+    { swedish: "falafel", spanish: "falafel" },
+    { swedish: "wok", spanish: "salteado" }
+];

@@ -1,4 +1,4 @@
-import {glosses, verbs, timeOfDay, irSentences, saberSentences, decirSentences, tenerSentences, clothesSentences, freeTimeSentences} from './glosses.js'
+import {glosses, verbs, timeOfDay, irSentences, saberSentences, decirSentences, tenerSentences, clothesSentences, freeTimeSentences, foodAndDrinkSentences, foodDishes} from './glosses.js'
 
 let glossSubmitButton = document.getElementById('submit-btn')
 let newGlossButton = document.getElementById('new-gloss')
@@ -8,6 +8,8 @@ console.log(activeListText.innerText)
 let startButton = document.getElementById('start')
 
 // Get glosslist selection buttons
+let comidaButton = document.getElementById('comida')
+let frasesDeComidaButton = document.getElementById('frases-de-comida')
 let verbsButton = document.getElementById('verbs')
 let presentTenseButton = document.getElementById('present')
 let timeButton = document.getElementById('time')
@@ -30,6 +32,8 @@ let currentGloss = ''
 let glossIndex = ''
 let currentListLength = ''
 
+addEventToButton(comidaButton, foodDishes);
+addEventToButton(frasesDeComidaButton, foodAndDrinkSentences);
 addEventToButton(verbsButton, verbs);
 addEventToButton(timeButton, timeOfDay);
 addEventToButton(irButton, irSentences);
