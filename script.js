@@ -1,10 +1,10 @@
-import {glosses, verbs, timeOfDay, irSentences, saberSentences, decirSentences, tenerSentences, clothesSentences, freeTimeSentences, foodAndDrinkSentences, foodDishes} from './glosses.js'
+import {verbs, timeOfDay, irSentences, saberSentences, decirSentences, tenerSentences, clothesSentences, freeTimeSentences, foodAndDrinkSentences, foodDishes} from './glosses.js'
+import {getRandomGlossIndex} from './glossFunctions.js'
 
+// Get function buttons
 let glossSubmitButton = document.getElementById('submit-btn')
 let newGlossButton = document.getElementById('new-gloss')
 let activeListText = document.getElementById('active-list')
-console.log(activeListText.innerText)
-
 let startButton = document.getElementById('start')
 
 // Get glosslist selection buttons
@@ -20,13 +20,13 @@ let tenerButton = document.getElementById('tener-sentences')
 let clothesSentencesButton = document.getElementById('ropa-sentences')
 let freeTimeSentencesButton = document.getElementById('tiempo-libre-sentences')
 
-
+// Get text and feedback
 let glossInputSpanish = document.getElementById('user-input')
-
 let answerFeedback = document.getElementById('feedback')
 let glossTextSwedish = document.getElementById('gloss-swedish')
 let scoreFeedback = document.getElementById('score')
 
+// Global variables
 let currentGlossList = ''
 let currentGloss = ''
 let glossIndex = ''
@@ -93,30 +93,49 @@ function setGlossList(selectedGlossList){
     currentGlossList = selectedGlossList
 }
 
-function getRandomGlossIndex(arrayLength) {
-    return Math.floor(Math.random() * arrayLength)
-}
-
 function getRandomGloss(currentGlossList){
     glossIndex = getRandomGlossIndex(currentGlossList.length)
     glossIndex = Number(glossIndex)
-    console.log('glossIndex: ', glossIndex)
     currentGloss = currentGlossList[glossIndex]
     glossTextSwedish.innerText = currentGloss.swedish
 }     
     
+
 function handleSubmission(currentGlossList) { 
-    let userInput = glossInputSpanish.value
-    console.log(userInput)
-    if (userInput.toLowerCase() === currentGloss.spanish.toLowerCase()) {
-    answerFeedback.innerText = currentGloss.spanish.toLowerCase() +' är rätt!'
-    // console.log('Before splice:', currentGlossList, glossIndex);
-    currentGlossList.splice(glossIndex, 1)
-    // console.log('After splice:', currentGlossList);
-    scoreFeedback.innerText = (currentListLength-currentGlossList.length) +'/' +currentListLength
+    let userInput = glossInputSpanish.value.toLowerCase().trim();
+
+    // Om `currentGloss.spanish` är en sträng, gör om den till en array med ett element
+    let spanishAnswers = Array.isArray(currentGloss.spanish)
+        ? currentGloss.spanish 
+        : [currentGloss.spanish];
+
+    // Kontrollera om userInput matchar någon av översättningarna
+    if (spanishAnswers.some(translation => translation.toLowerCase() === userInput)) {
+        answerFeedback.innerText = userInput + ' är rätt!';
+        
+        // Ta bort den aktuella glosan från listan
+        currentGlossList.splice(glossIndex, 1);
+
+        // Uppdatera poängen
+        scoreFeedback.innerText = (currentListLength - currentGlossList.length) + '/' + currentListLength;
     } else {
-    answerFeedback.innerText = 'Fel, rätt svar är: ' +currentGloss.spanish.toLowerCase()
+        // Om fel svar, visa alla korrekta svar
+        answerFeedback.innerText = 'Fel, rätt svar är:\n' + spanishAnswers.join('\neller\n');
+    }
 }
-}
+
+
+// function handleSubmission(currentGlossList) { 
+//     let userInput = glossInputSpanish.value
+//     if (userInput.toLowerCase() === currentGloss.spanish.toLowerCase()) {
+//     answerFeedback.innerText = currentGloss.spanish.toLowerCase() +' är rätt!'
+//     // console.log('Before splice:', currentGlossList, glossIndex);
+//     currentGlossList.splice(glossIndex, 1)
+//     // console.log('After splice:', currentGlossList);
+//     scoreFeedback.innerText = (currentListLength-currentGlossList.length) +'/' +currentListLength
+//     } else {
+//     answerFeedback.innerText = 'Fel, rätt svar är: ' +currentGloss.spanish.toLowerCase()
+// }
+// }
 
 

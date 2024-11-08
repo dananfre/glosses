@@ -1,56 +1,3 @@
-export let glosses = [
-    {
-        swedish: 'katten (hane)',
-        spanish: 'el gato',
-        english: 'the cat'
-    },
-    {
-        swedish: 'hunden (hane)',
-        spanish: 'el perro',
-        english: 'the dog'
-    },
-    {
-        swedish: 'att tala',
-        spanish: 'hablar',
-        english: 'to speak'
-    },
-    {
-        swedish: 'jag talar',
-        spanish: 'hablo',
-        english: 'I speak' 
-    },
-    {
-        swedish: 'fritiden',
-        spanish: 'el tiempo libre',
-        english: 'the spare time' 
-    },
-    {
-        swedish: 'jag stiger upp',
-        spanish: 'me levanto',
-        english: 'I speak' 
-    },
-    {
-        swedish: 'sedan',
-        spanish: 'luego',
-        english: 'I speak' 
-    },
-    {
-        swedish: 'jag går ut',
-        spanish: 'salgo',
-        english: 'I speak' 
-    },
-    {
-        swedish: 'du gör',
-        spanish: 'haces',
-        english: 'I speak' 
-    },
-    {
-        swedish: 'jag talar',
-        spanish: 'hablo',
-        english: 'I speak' 
-    }
-]
-
 export let verbs = [
     {
         swedish: 'att tala',
@@ -1537,82 +1484,161 @@ export let freeTimeSentences = [
     }
 ]
 
+// export let foodAndDrinkSentences = [
+//     {
+//         swedish: 'jag äter en smörgås',
+//         spanish: 'yo como un sándwich'
+//     },
+//     {
+//         swedish: 'jag dricker läsk',
+//         spanish: 'yo bebo refresco'
+//     },
+//     {
+//         swedish: 'vi äter pommes',
+//         spanish: 'nosotros comemos papas fritas'
+//     },
+//     {
+//         swedish: 'hon dricker juice',
+//         spanish: 'ella bebe jugo'
+//     },
+//     {
+//         swedish: 'de äter ris',
+//         spanish: 'ellos comen arroz'
+//     },
+//     {
+//         swedish: 'vi lagar kött',
+//         spanish: 'nosotros cocinamos carne'
+//     },
+//     {
+//         swedish: 'han äter kyckling',
+//         spanish: 'él come pollo'
+//     },
+//     {
+//         swedish: 'vi brukar dricka kaffe på morgonen',
+//         spanish: 'solemos beber café en la mañana'
+//     },
+//     {
+//         swedish: 'du måste äta mer sallad',
+//         spanish: 'tienes que comer más ensalada'
+//     },
+//     {
+//         swedish: 'jag kan laga pasta',
+//         spanish: 'puedo cocinar pasta'
+//     },
+//     {
+//         swedish: 'de vill ha juice och vatten',
+//         spanish: 'quieren jugo y agua'
+//     },
+//     {
+//         swedish: 'vi måste göra en smörgås till henne',
+//         spanish: 'tenemos que hacer un sándwich para ella'
+//     },
+//     {
+//         swedish: 'han brukar äta kött till middag',
+//         spanish: 'él suele comer carne en la cena'
+//     },
+//     {
+//         swedish: 'jag gör sallad till lunch',
+//         spanish: 'hago ensalada para el almuerzo'
+//     },
+//     {
+//         swedish: 'vi brukar äta fisk på fredagar',
+//         spanish: 'solemos comer pescado los viernes'
+//     },
+//     {
+//         swedish: 'de kan beställa pommes',
+//         spanish: 'ellos pueden pedir papas fritas'
+//     },
+//     {
+//         swedish: 'du måste dricka vatten varje dag',
+//         spanish: 'tienes que beber agua todos los días'
+//     },
+//     {
+//         swedish: 'vi vill äta pasta till middag',
+//         spanish: 'queremos comer pasta para la cena'
+//     },
+//     {
+//         swedish: 'hon kan laga ris till lunch',
+//         spanish: 'ella puede cocinar arroz para el almuerzo'
+//     }
+// ];
+
 export let foodAndDrinkSentences = [
     {
         swedish: 'jag äter en smörgås',
-        spanish: 'yo como un sándwich'
+        spanish: ['yo como un sándwich', 'como un sándwich']
     },
     {
         swedish: 'jag dricker läsk',
-        spanish: 'yo bebo refresco'
+        spanish: ['yo bebo refresco', 'bebo refresco']
     },
     {
         swedish: 'vi äter pommes',
-        spanish: 'nosotros comemos papas fritas'
+        spanish: ['nosotros comemos papas fritas', 'comemos papas fritas']
     },
     {
         swedish: 'hon dricker juice',
-        spanish: 'ella bebe jugo'
+        spanish: ['ella bebe jugo', 'bebe jugo']
     },
     {
         swedish: 'de äter ris',
-        spanish: 'ellos comen arroz'
+        spanish: ['ellos comen arroz', 'comen arroz']
     },
     {
         swedish: 'vi lagar kött',
-        spanish: 'nosotros cocinamos carne'
+        spanish: ['nosotros cocinamos carne', 'cocinamos carne']
     },
     {
         swedish: 'han äter kyckling',
-        spanish: 'él come pollo'
+        spanish: ['él come pollo', 'come pollo']
     },
     {
         swedish: 'vi brukar dricka kaffe på morgonen',
-        spanish: 'solemos beber café en la mañana'
+        spanish: ['solemos beber café en la mañana', 'bebemos café en la mañana']
     },
     {
         swedish: 'du måste äta mer sallad',
-        spanish: 'tienes que comer más ensalada'
+        spanish: ['tienes que comer más ensalada', 'come más ensalada']
     },
     {
         swedish: 'jag kan laga pasta',
-        spanish: 'puedo cocinar pasta'
+        spanish: ['puedo cocinar pasta', 'cocino pasta']
     },
     {
         swedish: 'de vill ha juice och vatten',
-        spanish: 'quieren jugo y agua'
+        spanish: ['quieren jugo y agua', 'desean jugo y agua']
     },
     {
         swedish: 'vi måste göra en smörgås till henne',
-        spanish: 'tenemos que hacer un sándwich para ella'
+        spanish: ['tenemos que hacer un sándwich para ella', 'hacemos un sándwich para ella']
     },
     {
         swedish: 'han brukar äta kött till middag',
-        spanish: 'él suele comer carne en la cena'
+        spanish: ['él suele comer carne en la cena', 'come carne en la cena']
     },
     {
         swedish: 'jag gör sallad till lunch',
-        spanish: 'hago ensalada para el almuerzo'
+        spanish: ['hago ensalada para el almuerzo', 'preparo ensalada para el almuerzo']
     },
     {
         swedish: 'vi brukar äta fisk på fredagar',
-        spanish: 'solemos comer pescado los viernes'
+        spanish: ['solemos comer pescado los viernes', 'comemos pescado los viernes']
     },
     {
         swedish: 'de kan beställa pommes',
-        spanish: 'ellos pueden pedir papas fritas'
+        spanish: ['ellos pueden pedir papas fritas', 'pueden pedir papas fritas']
     },
     {
         swedish: 'du måste dricka vatten varje dag',
-        spanish: 'tienes que beber agua todos los días'
+        spanish: ['tienes que beber agua todos los días', 'bebe agua todos los días']
     },
     {
         swedish: 'vi vill äta pasta till middag',
-        spanish: 'queremos comer pasta para la cena'
+        spanish: ['queremos comer pasta para la cena', 'comemos pasta para la cena']
     },
     {
         swedish: 'hon kan laga ris till lunch',
-        spanish: 'ella puede cocinar arroz para el almuerzo'
+        spanish: ['ella puede cocinar arroz para el almuerzo', 'cocina arroz para el almuerzo']
     }
 ];
 
