@@ -1673,3 +1673,76 @@ export let foodDishes = [
     { swedish: "falafel", spanish: "falafel" },
     { swedish: "wok", spanish: "salteado" }
 ];
+
+export let interestsAndHobbiesSentences = [
+    // Meningar om intressen
+    { swedish: 'Jag brukar spela datorspel på kvällen', spanish: ['Suelo jugar videojuegos por la noche'] },
+    { swedish: 'Jag gillar att umgås med vänner på helgerna', spanish: ['Me gusta pasar tiempo con amigos los fines de semana'] },
+    { swedish: 'Jag tycker om att gå till gymmet varje dag', spanish: ['Me gusta ir al gimnasio todos los días'] },
+    { swedish: 'Jag älskar att resa till olika platser', spanish: ['Me encanta viajar a diferentes lugares'] },
+    { swedish: 'Jag kan laga mat väldigt bra', spanish: ['Puedo cocinar muy bien'] },
+    { swedish: 'Jag brukar gå till parken med min familj', spanish: ['Suelo ir al parque con mi familia'] },
+    { swedish: 'Jag brukar läsa böcker när jag har tid', spanish: ['Suelo leer libros cuando tengo tiempo'] },
+    { swedish: 'Jag gillar att utforska nya turistmål', spanish: ['Me gusta explorar nuevos destinos turísticos'] },
+    { swedish: 'Jag har ofta utbyten med folk från andra länder', spanish: ['A menudo tengo intercambios con personas de otros países'] },
+    { swedish: 'Jag brukar resa med min familj under semestern', spanish: ['Suelo viajar con mi familia durante las vacaciones'] },
+
+    // Meningar som frågor
+    { swedish: 'Brukar du spela datorspel?', spanish: ['¿Sueles jugar videojuegos?'] },
+    { swedish: 'Kan du gå till gymmet idag?', spanish: ['¿Puedes ir al gimnasio hoy?'] },
+    { swedish: 'Vad brukar du göra här på fritiden?', spanish: ['¿Qué sueles hacer aquí en tu tiempo libre?'] },
+    { swedish: 'Går du ofta på utbyten?', spanish: ['¿Vas a menudo a intercambios?'] },
+    { swedish: 'Vad gör du för att koppla av?', spanish: ['¿Qué haces para relajarte?'] },
+    { swedish: 'Brukar du umgås med vänner ofta?', spanish: ['¿Sueles pasar tiempo con amigos a menudo?'] },
+    { swedish: 'Har du några planer att resa snart?', spanish: ['¿Tienes algún plan de viajar pronto?'] },
+    { swedish: 'Vad brukar du laga för mat?', spanish: ['¿Qué sueles cocinar?'] },
+    { swedish: 'Brukar du resa mycket?', spanish: ['¿Sueles viajar mucho?'] },
+    { swedish: 'Vad gillar du att göra när du är här?', spanish: ['¿Qué te gusta hacer cuando estás aquí?'] },
+
+    // Fler intressen och frågor
+    { swedish: 'Jag måste gå till gymmet efter jobbet', spanish: ['Tengo que ir al gimnasio después del trabajo'] },
+    { swedish: 'Vad brukar du göra när du är ledig?', spanish: ['¿Qué sueles hacer cuando estás libre?'] },
+    { swedish: 'Jag brukar umgås med min familj på helgerna', spanish: ['Suelo pasar tiempo con mi familia los fines de semana'] },
+    { swedish: 'Kan du laga middag idag?', spanish: ['¿Puedes hacer la cena hoy?'] },
+    { swedish: 'Tycker du om att resa för att göra turism?', spanish: ['¿Te gusta viajar para hacer turismo?'] },
+    { swedish: 'Vad brukar du göra när du är där?', spanish: ['¿Qué sueles hacer cuando estás allí?'] },
+    { swedish: 'Jag gillar att spendera mycket tid med familjen', spanish: ['Me gusta pasar un montón de tiempo con la familia'] },
+    { swedish: 'Har du tid att spela spel idag?', spanish: ['¿Tienes tiempo para jugar hoy?'] },
+    { swedish: 'Vad tycker du om att laga för mat?', spanish: ['¿Qué te gusta cocinar?'] },
+    { swedish: 'Brukar du resa med vänner?', spanish: ['¿Sueles viajar con amigos?'] },
+    { swedish: 'Jag brukar träna på gymmet varje vecka', spanish: ['Suelo entrenar en el gimnasio cada semana'] },
+    { swedish: 'Är det möjligt att åka på en resa snart?', spanish: ['¿Es posible hacer un viaje pronto?'] }
+];
+
+export let aboutMeSentences = [
+    { swedish: 'Jag heter Ove och är 14 år gammal', spanish: ['Me llamo Ove y tengo 14 años'] },
+    { swedish: 'Jag har en lillebror', spanish: ['Tengo un hermano menor'] },
+    { swedish: 'Jag bor med min mamma och pappa', spanish: ['Vivo con mi mamá y papá'] },
+    { swedish: 'Jag har sex kusiner', spanish: ['Tengo seis primos'] },
+    { swedish: 'Jag har en farmor och farfar på båda sidor', spanish: ['Tengo abuelos por parte de ambos padres'] },
+    { swedish: 'Jag är ganska lång', spanish: ['Soy bastante alto'] },
+    { swedish: 'Jag har rött krulligt hår', spanish: ['Tengo el pelo rojo y rizado'] },
+    { swedish: 'Jag älskar att spela datorspel', spanish: ['Me encanta jugar videojuegos'] },
+    { swedish: 'Jag spelar ofta Counter-Strike och Minecraft', spanish: ['Juego a menudo a Counter-Strike y Minecraft'] },
+    { swedish: 'Jag gillar också Fortnite', spanish: ['También me gusta Fortnite'] },
+    { swedish: 'Jag tycker om all sorts mat', spanish: ['Me gusta todo tipo de comida'] },
+    { swedish: 'Mina favoriträtter är tacos, hamburgare och pommes frites', spanish: ['Mis platos favoritos son tacos, hamburguesas y papas fritas'] },
+    { swedish: 'Jag tycker om sushi', spanish: ['Me gusta el sushi', 'Me gusta sushi'] },
+    { swedish: 'Jag gillar inte att äta frukost', spanish: ['No me gusta desayunar'] },
+    { swedish: 'Jag brukar vara uppe sent på nätterna', spanish: ['Suelo quedarme despierto hasta tarde por la noche'] },
+    { swedish: 'Jag tycker om att sova länge på morgonen', spanish: ['Me gusta dormir hasta tarde en la mañana'] },
+    { swedish: 'Ibland går jag till gymmet', spanish: ['A veces voy al gimnasio'] },
+    { swedish: 'Jag brukar spela spel med mina vänner online', spanish: ['Suelo jugar en línea con mis amigos'] },
+    { swedish: 'Min lillebror spelar också datorspel', spanish: ['Mi hermano menor también juega videojuegos'] },
+    { swedish: 'Jag gillar att vara här hemma', spanish: ['Me gusta estar aquí en casa'] },
+    { swedish: 'Jag tycker inte om att vakna tidigt', spanish: ['No me gusta despertarme temprano'] },
+    { swedish: 'Jag älskar att äta med min familj', spanish: ['Me encanta comer con mi familia'] },
+    { swedish: 'Jag har en gamingdator i mitt rum', spanish: ['Tengo una computadora para juegos en mi habitación'] },
+    { swedish: 'Jag tycker om att resa med familjen', spanish: ['Me gusta viajar con mi familia'] },
+    { swedish: 'Jag gillar att umgås med mina kusiner', spanish: ['Me gusta pasar tiempo con mis primos'] },
+    { swedish: 'Jag tycker om att se filmer på kvällen', spanish: ['Me gusta ver películas por la noche'] },
+    { swedish: 'Jag kan spela hela natten om jag får', spanish: ['Puedo jugar toda la noche si me dejan'] },
+    { swedish: 'Jag gillar att lära mig nya strategier i spel', spanish: ['Me gusta aprender nuevas estrategias en los juegos'] },
+    { swedish: 'Jag brukar äta middag sent på kvällen', spanish: ['Suelo cenar tarde en la noche'] },
+    { swedish: 'Jag älskar att prova olika maträtter', spanish: ['Me encanta probar diferentes platos'] }
+];
