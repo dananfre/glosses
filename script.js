@@ -1,4 +1,4 @@
-import {verbs, timeOfDay, irSentences, saberSentences, decirSentences, tenerSentences, clothesSentences, freeTimeSentences, foodAndDrinkSentences, foodDishes, interestsAndHobbiesSentences, aboutMeSentences} from './glosses.js'
+import {verbs, timeOfDay, irSentences, saberSentences, decirSentences, tenerSentences, clothesSentences, freeTimeSentences, foodAndDrinkSentences, foodDishes, interestsAndHobbiesSentences, aboutMeSentences, varnamoSentences, questionSentences} from './glosses.js'
 import {getRandomGlossIndex} from './glossFunctions.js'
 
 // Get function buttons
@@ -8,6 +8,8 @@ let activeListText = document.getElementById('active-list')
 let startButton = document.getElementById('start')
 
 // Get glosslist selection buttons
+let questionButton = document.getElementById('questions-sentences')
+let varnamoButton = document.getElementById('varnamo-sentences')
 let meButton = document.getElementById('me-sentences')
 let tiempoLibreButton = document.getElementById('tiempo-libre')
 let comidaButton = document.getElementById('comida')
@@ -34,6 +36,8 @@ let currentGloss = ''
 let glossIndex = ''
 let currentListLength = ''
 
+addEventToButton(questionButton, questionSentences);
+addEventToButton(varnamoButton, varnamoSentences);
 addEventToButton(meButton, aboutMeSentences);
 addEventToButton(tiempoLibreButton, interestsAndHobbiesSentences);
 addEventToButton(comidaButton, foodDishes);

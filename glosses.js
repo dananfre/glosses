@@ -1746,3 +1746,170 @@ export let aboutMeSentences = [
     { swedish: 'Jag brukar äta middag sent på kvällen', spanish: ['Suelo cenar tarde en la noche'] },
     { swedish: 'Jag älskar att prova olika maträtter', spanish: ['Me encanta probar diferentes platos'] }
 ];
+
+export let varnamoSentences = [
+    {
+        swedish: 'Värnamo ligger i södra Sverige.',
+        spanish: 'Värnamo está en el sur de Suecia.'
+    },
+    {
+        swedish: 'Staden har många fina parker.',
+        spanish: 'La ciudad tiene muchos parques bonitos.'
+    },
+    {
+        swedish: 'Värnamo har cirka 20 000 invånare.',
+        spanish: 'Värnamo tiene alrededor de 20,000 habitantes.'
+    },
+    {
+        swedish: 'Genom Värnamo rinner ån Lagan.',
+        spanish: 'En Värnamo hay un río que se llama Lagan.'
+    },
+    {
+        swedish: 'Bruno Mathsson-museet finns i Värnamo.',
+        spanish: 'El museo de Bruno Mathsson está en Värnamo.'
+    },
+    {
+        swedish: 'I stadens centrum finns många butiker.',
+        spanish: 'En el centro de la ciudad hay muchas tiendas.'
+    },
+    {
+        swedish: 'Värnamo har en fotbollsarena.',
+        spanish: 'Värnamo tiene un estadio de fútbol.'
+    },
+    {
+        swedish: 'Det är ofta marknad i värnamo',
+        spanish: 'A menudo hay mercado en Värnamo.'
+    },
+    {
+        swedish: 'Värnamo har en viktig järnvägsstation.',
+        spanish: 'Värnamo tiene una estación de tren importante.'
+    },
+    {
+        swedish: 'Det finns många vandringsleder i skogarna.',
+        spanish: 'Hay muchos senderos para caminar en los bosques.'
+    },
+    {
+        swedish: 'Värnamo kyrka är väldigt gammal.',
+        spanish: 'La iglesia de Värnamo es muy antigua.'
+    },
+    {
+        swedish: 'Det finns ett modernt sjukhus i staden.',
+        spanish: 'Hay un hospital moderno en la ciudad.'
+    },
+    {
+        swedish: 'I Värnamo finns många kaféer.',
+        spanish: 'Hay muchas cafeterías en Värnamo.'
+    },
+    {
+        swedish: 'Det finns en offentlig pool i Värnamo.',
+        spanish: 'Hay una piscina pública en Värnamo.'
+    },
+    {
+        swedish: 'Värnamo är känt för sin skandinaviska design.',
+        spanish: 'Värnamo es famosa por su diseño escandinavo.'
+    },
+    {
+        swedish: 'På vintern kan man åka skidor i närheten.',
+        spanish: 'En invierno, se puede esquiar en los alrededores.'
+    },
+    {
+        swedish: 'Det finns många sjöar att bada i nära Värnamo.',
+        spanish: 'Hay muchos lagos para nadar cerca de Värnamo.'
+    },
+    {
+        swedish: 'Värnamo har ett stort bibliotek.',
+        spanish: 'Värnamo tiene una biblioteca grande.'
+    },
+    {
+        swedish: 'Värnamo kommunhus ligger i centrum.',
+        spanish: 'El ayuntamiento de Värnamo está en el centro.'
+    },
+    {
+        swedish: 'Det finns många skogar runt Värnamo.',
+        spanish: 'Hay muchos bosques alrededor de Värnamo.'
+    }
+
+];
+
+export const questionSentences = [
+    {
+        swedish: 'Vad heter du?',
+        spanish: '¿Cómo te llamas?'
+    },
+    {
+        swedish: 'När kommer du hem?',
+        spanish: '¿Cuándo llegas a casa?'
+    },
+    {
+        swedish: 'Hur mycket kostar det?',
+        spanish: '¿Cuánto cuesta?'
+    },
+    {
+        swedish: 'Hur många syskon har du?',
+        spanish: '¿Cuántos hermanos tienes?'
+    },
+    {
+        swedish: 'Vem är din bästa vän?',
+        spanish: '¿Quién es tu mejor amigo?'
+    },
+    {
+        swedish: 'Varifrån kommer du?',
+        spanish: '¿De dónde eres?'
+    },
+    {
+        swedish: 'Varför är du sen?',
+        spanish: '¿Por qué llegas tarde?'
+    },
+    {
+        swedish: 'Vad gör du på helgerna?',
+        spanish: '¿Qué haces los fines de semana?'
+    },
+    {
+        swedish: 'När är din födelsedag?',
+        spanish: '¿Cuándo es tu cumpleaños?'
+    },
+    {
+        swedish: 'Hur mycket tid har vi kvar?',
+        spanish: '¿Cuánto tiempo nos queda?'
+    },
+    {
+        swedish: 'Hur många länder besöker du varje år?',
+        spanish: '¿Cuántos países visitas cada año?'
+    },
+    {
+        swedish: 'Vem vinner matchen?',
+        spanish: '¿Quién gana el partido?'
+    },
+    {
+        swedish: 'Varifrån kommer det här paketet?',
+        spanish: '¿De dónde viene este paquete?'
+    },
+    {
+        swedish: 'Varför studerar du spanska?',
+        spanish: '¿Por qué estudias español?'
+    },
+    {
+        swedish: 'Vad är din favoritmat?',
+        spanish: '¿Cuál es tu comida favorita?'
+    },
+    {
+        swedish: 'När öppnar butiken?',
+        spanish: '¿Cuándo abre la tienda?'
+    },
+    {
+        swedish: 'Hur mycket socker vill du ha?',
+        spanish: '¿Cuánta azúcar quieres?'
+    },
+    {
+        swedish: 'Hur många timmar sover du varje natt?',
+        spanish: '¿Cuántas horas duermes cada noche?'
+    },
+    {
+        swedish: 'Vem skriver den här boken?',
+        spanish: '¿Quién escribe este libro?'
+    },
+    {
+        swedish: 'Varifrån får du dessa idéer?',
+        spanish: '¿De dónde obtienes estas ideas?'
+    }
+];
