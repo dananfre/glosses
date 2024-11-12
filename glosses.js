@@ -1072,325 +1072,266 @@ export let tenerSentences = [
 export let clothesSentences = [
     {
         swedish: 'jag bär en röd tröja',
-        spanish: 'llevo una camiseta roja'
+        spanish: ['llevo una camiseta roja', 'llevo un suéter rojo']
     },
     {
         swedish: 'du har på dig en blå jacka',
-        spanish: 'llevas una chaqueta azul'
+        spanish: ['llevas una chaqueta azul', 'usas una chaqueta azul']
     },
     {
         swedish: 'han bär svarta byxor',
-        spanish: 'lleva unos pantalones negros'
+        spanish: ['lleva unos pantalones negros', 'lleva pantalones negros']
     },
     {
         swedish: 'hon har på sig en vit klänning',
-        spanish: 'lleva un vestido blanco'
+        spanish: ['lleva un vestido blanco', 'usa un vestido blanco']
     },
     {
         swedish: 'vi har på oss gröna skor',
-        spanish: 'llevamos unos zapatos verdes'
+        spanish: ['llevamos unos zapatos verdes', 'llevamos zapatos verdes']
     },
     {
         swedish: 'ni bär en gul hatt',
-        spanish: 'lleváis un sombrero amarillo'
+        spanish: ['lleváis un sombrero amarillo', 'usáis un sombrero amarillo']
     },
     {
         swedish: 'de bär grå strumpor',
-        spanish: 'llevan unos calcetines grises'
+        spanish: ['llevan unos calcetines grises', 'llevan calcetines grises']
     },
     {
         swedish: 'jag har på mig en svart jacka',
-        spanish: 'llevo una chaqueta negra'
+        spanish: ['llevo una chaqueta negra', 'uso una chaqueta negra']
     },
     {
         swedish: 'du bär en vit skjorta',
-        spanish: 'llevas una camisa blanca'
+        spanish: ['llevas una camisa blanca', 'usas una camisa blanca']
     },
     {
         swedish: 'han har på sig bruna skor',
-        spanish: 'lleva unos zapatos marrones'
+        spanish: ['lleva unos zapatos marrones', 'lleva zapatos marrones']
     },
     {
         swedish: 'hon bär en röd kjol',
-        spanish: 'lleva una falda roja'
+        spanish: ['lleva una falda roja', 'usa una falda roja']
     },
     {
         swedish: 'vi har på oss blå jeans',
-        spanish: 'llevamos unos vaqueros azules'
+        spanish: ['llevamos unos vaqueros azules', 'llevamos vaqueros azules']
     },
     {
         swedish: 'ni bär en grön tröja',
-        spanish: 'lleváis un jersey verde'
+        spanish: ['lleváis un jersey verde', 'usáis un jersey verde']
     },
     {
         swedish: 'de har på sig vita skjortor',
-        spanish: 'llevan unas camisas blancas'
+        spanish: ['llevan unas camisas blancas', 'llevan camisas blancas']
     },
     {
         swedish: 'jag bär en brun kappa',
-        spanish: 'llevo un abrigo marrón'
+        spanish: ['llevo un abrigo marrón', 'uso un abrigo marrón']
     },
     {
         swedish: 'du har på dig ett par svarta handskar',
-        spanish: 'llevas unos guantes negros'
+        spanish: ['llevas unos guantes negros', 'usas guantes negros']
     },
     {
         swedish: 'han bär en gul tröja',
-        spanish: 'lleva una camiseta amarilla'
+        spanish: ['lleva una camiseta amarilla', 'usa una camiseta amarilla']
     },
     {
         swedish: 'hon har på sig en blå kjol',
-        spanish: 'lleva una falda azul'
+        spanish: ['lleva una falda azul', 'usa una falda azul']
     },
     {
         swedish: 'vi bär gröna hattar',
-        spanish: 'llevamos unos sombreros verdes'
+        spanish: ['llevamos unos sombreros verdes', 'usamos unos sombreros verdes']
     },
     {
         swedish: 'ni har på er röda skor',
-        spanish: 'lleváis unos zapatos rojos'
+        spanish: ['lleváis unos zapatos rojos', 'usáis zapatos rojos']
     },
     {
         swedish: 'jag vill bära en röd tröja',
-        spanish: 'quiero llevar una camiseta roja'
+        spanish: ['quiero llevar una camiseta roja', 'quiero usar una camiseta roja']
     },
     {
         swedish: 'du vill ha på dig en blå jacka',
-        spanish: 'quieres llevar una chaqueta azul'
+        spanish: ['quieres llevar una chaqueta azul', 'quieres usar una chaqueta azul']
     },
     {
         swedish: 'han vill bära svarta byxor',
-        spanish: 'quiere llevar unos pantalones negros'
+        spanish: ['quiere llevar unos pantalones negros', 'quiere usar pantalones negros']
     },
     {
         swedish: 'hon vill ha på sig en vit klänning',
-        spanish: 'quiere llevar un vestido blanco'
+        spanish: ['quiere llevar un vestido blanco', 'quiere usar un vestido blanco']
     },
     {
         swedish: 'vi vill ha på oss gröna skor',
-        spanish: 'queremos llevar unos zapatos verdes'
+        spanish: ['queremos llevar unos zapatos verdes', 'queremos usar zapatos verdes']
     },
     {
         swedish: 'ni vill bära en gul hatt',
-        spanish: 'queréis llevar un sombrero amarillo'
+        spanish: ['queréis llevar un sombrero amarillo', 'queréis usar un sombrero amarillo']
     },
     {
         swedish: 'de vill bära grå strumpor',
-        spanish: 'quieren llevar unos calcetines grises'
+        spanish: ['quieren llevar unos calcetines grises', 'quieren usar calcetines grises']
     },
     {
         swedish: 'jag vill ha på mig en svart jacka',
-        spanish: 'quiero llevar una chaqueta negra'
+        spanish: ['quiero llevar una chaqueta negra', 'quiero usar una chaqueta negra']
     },
     {
         swedish: 'du vill bära en vit skjorta',
-        spanish: 'quieres llevar una camisa blanca'
+        spanish: ['quieres llevar una camisa blanca', 'quieres usar una camisa blanca']
     },
     {
         swedish: 'han vill ha på sig bruna skor',
-        spanish: 'quiere llevar unos zapatos marrones'
+        spanish: ['quiere llevar unos zapatos marrones', 'quiere usar zapatos marrones']
     },
     {
         swedish: 'hon vill bära en röd kjol',
-        spanish: 'quiere llevar una falda roja'
+        spanish: ['quiere llevar una falda roja', 'quiere usar una falda roja']
     },
     {
         swedish: 'vi vill ha på oss blå jeans',
-        spanish: 'queremos llevar unos vaqueros azules'
+        spanish: ['queremos llevar unos vaqueros azules', 'queremos usar vaqueros azules']
     },
     {
         swedish: 'ni vill bära en grön tröja',
-        spanish: 'queréis llevar un jersey verde'
+        spanish: ['queréis llevar un jersey verde', 'queréis usar un jersey verde']
     },
     {
         swedish: 'de vill ha på sig vita skjortor',
-        spanish: 'quieren llevar unas camisas blancas'
-    },
-    {
-        swedish: 'jag vill bära en brun kappa',
-        spanish: 'quiero llevar un abrigo marrón'
-    },
-    {
-        swedish: 'du vill ha på dig ett par svarta handskar',
-        spanish: 'quieres llevar unos guantes negros'
-    },
-    {
-        swedish: 'han vill bära en gul tröja',
-        spanish: 'quiere llevar una camiseta amarilla'
-    },
-    {
-        swedish: 'hon vill ha på sig en blå kjol',
-        spanish: 'quiere llevar una falda azul'
-    },
-    {
-        swedish: 'vi vill bära gröna hattar',
-        spanish: 'queremos llevar unos sombreros verdes'
-    },
-    {
-        swedish: 'ni vill ha på er röda skor',
-        spanish: 'queréis llevar unos zapatos rojos'
+        spanish: ['quieren llevar unas camisas blancas', 'quieren usar camisas blancas']
     },
     {
         swedish: 'jag köper en röd tröja',
-        spanish: 'compro una camiseta roja'
+        spanish: ['compro una camiseta roja', 'adquiero una camiseta roja']
     },
     {
         swedish: 'du säljer en blå jacka',
-        spanish: 'vendes una chaqueta azul'
+        spanish: ['vendes una chaqueta azul', 'ofreces una chaqueta azul']
     },
     {
         swedish: 'han har svarta byxor',
-        spanish: 'tiene unos pantalones negros'
+        spanish: ['tiene unos pantalones negros', 'usa pantalones negros']
     },
     {
         swedish: 'hon köper en vit klänning',
-        spanish: 'compra un vestido blanco'
+        spanish: ['compra un vestido blanco', 'adquiere un vestido blanco']
     },
     {
         swedish: 'vi säljer gröna skor',
-        spanish: 'vendemos unos zapatos verdes'
+        spanish: ['vendemos unos zapatos verdes', 'ofrecemos zapatos verdes']
     },
     {
         swedish: 'ni har en gul hatt',
-        spanish: 'tenéis un sombrero amarillo'
+        spanish: ['tenéis un sombrero amarillo', 'usáis un sombrero amarillo']
     },
     {
         swedish: 'de köper grå strumpor',
-        spanish: 'compran unos calcetines grises'
+        spanish: ['compran unos calcetines grises', 'adquieren calcetines grises']
     },
     {
         swedish: 'jag har en svart jacka',
-        spanish: 'tengo una chaqueta negra'
+        spanish: ['tengo una chaqueta negra', 'uso una chaqueta negra']
     },
     {
         swedish: 'du köper en vit skjorta',
-        spanish: 'compras una camisa blanca'
+        spanish: ['compras una camisa blanca', 'adquieres una camisa blanca']
     },
     {
         swedish: 'han säljer bruna skor',
-        spanish: 'vende unos zapatos marrones'
+        spanish: ['vende unos zapatos marrones', 'ofrece zapatos marrones']
     },
     {
         swedish: 'hon har en röd kjol',
-        spanish: 'tiene una falda roja'
+        spanish: ['tiene una falda roja', 'usa una falda roja']
     },
     {
-        swedish: 'vi har blå jeans',
-        spanish: 'tenemos unos vaqueros azules'
+        swedish: 'På vintern bär jag en varm jacka.',
+        spanish: ['En invierno llevo una chaqueta caliente.', 'En invierno uso una chaqueta caliente.']
     },
     {
-        swedish: 'ni säljer en grön tröja',
-        spanish: 'vendéis un jersey verde'
+        swedish: 'Jag har på mig en mössa när det är kallt.',
+        spanish: ['Uso un gorro cuando hace frío.', 'Llevo un gorro cuando hace frío.']
     },
     {
-        swedish: 'de har vita skjortor',
-        spanish: 'tienen unas camisas blancas'
+        swedish: 'På sommaren använder jag solglasögon.',
+        spanish: ['En verano uso gafas de sol.', 'En verano llevo gafas de sol.']
     },
     {
-        swedish: 'jag säljer en brun kappa',
-        spanish: 'vendo un abrigo marrón'
+        swedish: 'När det regnar har jag en regnjacka.',
+        spanish: ['Cuando llueve llevo un impermeable.', 'Cuando llueve uso un impermeable.']
     },
     {
-        swedish: 'du har ett par svarta handskar',
-        spanish: 'tienes unos guantes negros'
+        swedish: 'Jag tar på mig handskar i snön.',
+        spanish: ['Me pongo guantes en la nieve.', 'Uso guantes en la nieve.']
     },
     {
-        swedish: 'han köper en gul tröja',
-        spanish: 'compra una camiseta amarilla'
+        swedish: 'På våren bär jag en lätt tröja.',
+        spanish: ['En primavera llevo un suéter ligero.', 'En primavera uso un suéter ligero.']
     },
     {
-        swedish: 'hon säljer en blå kjol',
-        spanish: 'vende una falda azul'
+        swedish: 'Jag har sandaler på stranden.',
+        spanish: ['Uso sandalias en la playa.', 'Llevo sandalias en la playa.']
     },
     {
-        swedish: 'vi köper gröna hattar',
-        spanish: 'compramos unos sombreros verdes'
+        swedish: 'När det är blåsigt använder jag en halsduk.',
+        spanish: ['Cuando hace viento uso una bufanda.', 'Cuando hace viento llevo una bufanda.']
     },
     {
-        swedish: 'ni har röda skor',
-        spanish: 'tenéis unos zapatos rojos'
+        swedish: 'På hösten bär jag en lång kappa.',
+        spanish: ['En otoño llevo un abrigo largo.', 'En otoño uso un abrigo largo.']
     },
     {
-        swedish: 'jag vill köpa en röd tröja',
-        spanish: 'quiero comprar una camiseta roja'
+        swedish: 'Jag har på mig en t-shirt när det är varmt.',
+        spanish: ['Llevo una camiseta cuando hace calor.', 'Uso una camiseta cuando hace calor.']
     },
     {
-        swedish: 'du vill sälja en blå jacka',
-        spanish: 'quieres vender una chaqueta azul'
+        swedish: 'När jag tränar använder jag sportkläder.',
+        spanish: ['Cuando hago ejercicio uso ropa deportiva.', 'Cuando entreno llevo ropa deportiva.']
     },
     {
-        swedish: 'han vill ha svarta byxor',
-        spanish: 'quiere tener unos pantalones negros'
+        swedish: 'På vintern tar jag på mig stövlar.',
+        spanish: ['En invierno me pongo botas.', 'En invierno uso botas.']
     },
     {
-        swedish: 'hon vill köpa en vit klänning',
-        spanish: 'quiere comprar un vestido blanco'
+        swedish: 'Jag bär shorts på sommaren.',
+        spanish: ['Llevo pantalones cortos en verano.', 'Uso pantalones cortos en verano.']
     },
     {
-        swedish: 'vi vill sälja gröna skor',
-        spanish: 'queremos vender unos zapatos verdes'
+        swedish: 'När jag sover använder jag pyjamas.',
+        spanish: ['Cuando duermo uso pijama.', 'Cuando duermo llevo pijama.']
     },
     {
-        swedish: 'ni vill ha en gul hatt',
-        spanish: 'queréis tener un sombrero amarillo'
+        swedish: 'Jag tar med mig en paraply när det regnar.',
+        spanish: ['Llevo un paraguas cuando llueve.', 'Uso un paraguas cuando llueve.']
     },
     {
-        swedish: 'de vill köpa grå strumpor',
-        spanish: 'quieren comprar unos calcetines grises'
+        swedish: 'På våren bär jag en färgglad klänning.',
+        spanish: ['En primavera llevo un vestido colorido.', 'En primavera uso un vestido colorido.']
     },
     {
-        swedish: 'jag vill ha en svart jacka',
-        spanish: 'quiero tener una chaqueta negra'
+        swedish: 'När det är kallt har jag en tjock tröja.',
+        spanish: ['Cuando hace frío llevo un suéter grueso.', 'Cuando hace frío uso un suéter grueso.']
     },
     {
-        swedish: 'du vill köpa en vit skjorta',
-        spanish: 'quieres comprar una camisa blanca'
+        swedish: 'Jag använder en solhatt på stranden.',
+        spanish: ['Uso un sombrero de sol en la playa.', 'Llevo un sombrero de sol en la playa.']
     },
     {
-        swedish: 'han vill sälja bruna skor',
-        spanish: 'quiere vender unos zapatos marrones'
+        swedish: 'På hösten tar jag på mig jeans.',
+        spanish: ['En otoño me pongo vaqueros.', 'En otoño llevo vaqueros.']
     },
     {
-        swedish: 'hon vill ha en röd kjol',
-        spanish: 'quiere tener una falda roja'
-    },
-    {
-        swedish: 'vi vill ha blå jeans',
-        spanish: 'queremos tener unos vaqueros azules'
-    },
-    {
-        swedish: 'ni vill sälja en grön tröja',
-        spanish: 'queréis vender un jersey verde'
-    },
-    {
-        swedish: 'de vill ha vita skjortor',
-        spanish: 'quieren tener unas camisas blancas'
-    },
-    {
-        swedish: 'jag vill sälja en brun kappa',
-        spanish: 'quiero vender un abrigo marrón'
-    },
-    {
-        swedish: 'du vill ha ett par svarta handskar',
-        spanish: 'quieres tener unos guantes negros'
-    },
-    {
-        swedish: 'han vill köpa en gul tröja',
-        spanish: 'quiere comprar una camiseta amarilla'
-    },
-    {
-        swedish: 'hon vill sälja en blå kjol',
-        spanish: 'quiere vender una falda azul'
-    },
-    {
-        swedish: 'vi vill köpa gröna hattar',
-        spanish: 'queremos comprar unos sombreros verdes'
-    },
-    {
-        swedish: 'ni vill ha röda skor',
-        spanish: 'queréis tener unos zapatos rojos'
+        swedish: 'Jag har en regnponcho när det är stormigt.',
+        spanish: ['Llevo un poncho de lluvia cuando hay tormenta.', 'Uso un poncho de lluvia cuando hay tormenta.']
     }
-]
+];
+
 
 export let freeTimeSentences = [
      // Correr
