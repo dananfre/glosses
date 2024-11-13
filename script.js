@@ -1,4 +1,4 @@
-import {verbs, timeOfDay, irSentences, saberSentences, decirSentences, tenerSentences, clothesSentences, freeTimeSentences, foodAndDrinkSentences, foodDishes, interestsAndHobbiesSentences, aboutMeSentences, varnamoSentences, questionSentences} from './glosses.js'
+import {verbs, timeOfDay, irSentences, saberSentences, decirSentences, tenerSentences, clothesSentences, freeTimeSentences, foodAndDrinkSentences, foodDishes, interestsAndHobbiesSentences, aboutMeSentences, varnamoSentences, questionSentences, weatherNatureSentences, schoolSentences} from './glosses.js'
 import {getRandomGlossIndex} from './glossFunctions.js'
 
 // Get function buttons
@@ -8,6 +8,8 @@ let activeListText = document.getElementById('active-list')
 let startButton = document.getElementById('start')
 
 // Get glosslist selection buttons
+let schoolButton = document.getElementById('school-sentences')
+let climaButton = document.getElementById('clima-sentences')
 let questionButton = document.getElementById('questions-sentences')
 let varnamoButton = document.getElementById('varnamo-sentences')
 let meButton = document.getElementById('me-sentences')
@@ -36,6 +38,8 @@ let currentGloss = ''
 let glossIndex = ''
 let currentListLength = ''
 
+addEventToButton(schoolButton, schoolSentences);
+addEventToButton(climaButton, weatherNatureSentences);
 addEventToButton(questionButton, questionSentences);
 addEventToButton(varnamoButton, varnamoSentences);
 addEventToButton(meButton, aboutMeSentences);
@@ -110,15 +114,25 @@ function getRandomGloss(currentGlossList){
     
 
 function handleSubmission(currentGlossList) { 
-    let userInput = glossInputSpanish.value.toLowerCase().trim();
+    let userInput = glossInputSpanish.value.toLowerCase().trim()
+    .replace(/^¿/, '')    // Tar bort ¿ i början
+    .replace(/[?.]+$/, ''); // Tar bort punkter i slutet;
+    console.log(userInput)
 
     // Om `currentGloss.spanish` är en sträng, gör om den till en array med ett element
     let spanishAnswers = Array.isArray(currentGloss.spanish)
         ? currentGloss.spanish 
         : [currentGloss.spanish];
 
+    let cleanedSpanishAnswers = spanishAnswers.map(translation => 
+        translation.toLowerCase().trim()
+        .replace(/^¿/, '')    // Tar bort ¿ i början
+        .replace(/[?.]+$/, '')  // Tar bort punkter i slutet
+    );
+    console.log(cleanedSpanishAnswers)
+    
     // Kontrollera om userInput matchar någon av översättningarna
-    if (spanishAnswers.some(translation => translation.toLowerCase() === userInput)) {
+    if (cleanedSpanishAnswers.some(translation => translation === userInput)) {
         answerFeedback.innerText = userInput + ' är rätt!';
         
         // Ta bort den aktuella glosan från listan

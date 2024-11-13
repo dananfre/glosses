@@ -1416,10 +1416,6 @@ export let freeTimeSentences = [
         spanish: 'nosotros miramos un partido juntos'
     },
     {
-        swedish: 'ni tittar på solnedgången',
-        spanish: 'vosotros miráis la puesta de sol'
-    },
-    {
         swedish: 'de tittar på fåglar i parken',
         spanish: 'ellos miran los pájaros en el parque'
     }
@@ -1592,27 +1588,20 @@ export let foodDishes = [
     { swedish: "sallad", spanish: "ensalada" },
     { swedish: "ris", spanish: "arroz" },
     { swedish: "kyckling", spanish: "pollo" },
-    { swedish: "grillad lax", spanish: "salmón a la parrilla" },
     { swedish: "hamburgare", spanish: "hamburguesa" },
-    { swedish: "korv med bröd", spanish: "perrito caliente" },
     { swedish: "soppa", spanish: "sopa" },
-    { swedish: "gröt", spanish: "gachas" },
     { swedish: "fisk", spanish: "pescado" },
     { swedish: "fläskkött", spanish: "cerdo" },
     { swedish: "potatismos", spanish: "puré de patatas" },
     { swedish: "kött", spanish: "carne" },
     { swedish: "lasagne", spanish: "lasaña" },
-    { swedish: "stek", spanish: "asado" },
     { swedish: "kanelbulle", spanish: "bollo de canela" },
     { swedish: "tacos", spanish: "tacos" },
     { swedish: "enchiladas", spanish: "enchiladas" },
     { swedish: "tortilla", spanish: "tortilla" },
-    { swedish: "paj", spanish: "pastel" },
-    { swedish: "gryta", spanish: "guiso" },
     { swedish: "köttfärssås", spanish: "salsa boloñesa" },
     { swedish: "räkor", spanish: "gambas" },
     { swedish: "falafel", spanish: "falafel" },
-    { swedish: "wok", spanish: "salteado" }
 ];
 
 export let interestsAndHobbiesSentences = [
@@ -1670,22 +1659,18 @@ export let aboutMeSentences = [
     { swedish: 'Mina favoriträtter är tacos, hamburgare och pommes frites', spanish: ['Mis platos favoritos son tacos, hamburguesas y papas fritas'] },
     { swedish: 'Jag tycker om sushi', spanish: ['Me gusta el sushi', 'Me gusta sushi'] },
     { swedish: 'Jag gillar inte att äta frukost', spanish: ['No me gusta desayunar'] },
-    { swedish: 'Jag brukar vara uppe sent på nätterna', spanish: ['Suelo quedarme despierto hasta tarde por la noche'] },
     { swedish: 'Jag tycker om att sova länge på morgonen', spanish: ['Me gusta dormir hasta tarde en la mañana'] },
     { swedish: 'Ibland går jag till gymmet', spanish: ['A veces voy al gimnasio'] },
     { swedish: 'Jag brukar spela spel med mina vänner online', spanish: ['Suelo jugar en línea con mis amigos'] },
-    { swedish: 'Min lillebror spelar också datorspel', spanish: ['Mi hermano menor también juega videojuegos'] },
+    { swedish: 'Min lillebror spelar också datorspel', spanish: ['Mi hermano menor también juega videojuegos', 'Mi hermano pequeño también juega juegos de computadora.'] },
     { swedish: 'Jag gillar att vara här hemma', spanish: ['Me gusta estar aquí en casa'] },
-    { swedish: 'Jag tycker inte om att vakna tidigt', spanish: ['No me gusta despertarme temprano'] },
-    { swedish: 'Jag älskar att äta med min familj', spanish: ['Me encanta comer con mi familia'] },
+    { swedish: 'Jag tycker inte om att vakna tidigt', spanish: ['No me gusta despertarme temprano', 'No me gusta levantarme temprano.'] },
+    { swedish: 'Jag älskar att äta med min familj', spanish: ['Me encanta comer con mi familia', 'Me gusta comer con mi familia'] },
     { swedish: 'Jag har en gamingdator i mitt rum', spanish: ['Tengo una computadora para juegos en mi habitación'] },
     { swedish: 'Jag tycker om att resa med familjen', spanish: ['Me gusta viajar con mi familia'] },
     { swedish: 'Jag gillar att umgås med mina kusiner', spanish: ['Me gusta pasar tiempo con mis primos'] },
-    { swedish: 'Jag tycker om att se filmer på kvällen', spanish: ['Me gusta ver películas por la noche'] },
-    { swedish: 'Jag kan spela hela natten om jag får', spanish: ['Puedo jugar toda la noche si me dejan'] },
-    { swedish: 'Jag gillar att lära mig nya strategier i spel', spanish: ['Me gusta aprender nuevas estrategias en los juegos'] },
     { swedish: 'Jag brukar äta middag sent på kvällen', spanish: ['Suelo cenar tarde en la noche'] },
-    { swedish: 'Jag älskar att prova olika maträtter', spanish: ['Me encanta probar diferentes platos'] }
+    { swedish: 'Jag älskar att prova olika maträtter', spanish: ['Me encanta probar diferentes platos', 'Me gusta probar diferentes platos'] }
 ];
 
 export let varnamoSentences = [
@@ -1699,19 +1684,19 @@ export let varnamoSentences = [
     },
     {
         swedish: 'Värnamo har cirka 20 000 invånare.',
-        spanish: 'Värnamo tiene alrededor de 20,000 habitantes.'
+        spanish: ['Värnamo tiene alrededor de 20,000 habitantes.', 'Värnamo tiene aproximadamente 20.000 habitantes.']
     },
     {
-        swedish: 'Genom Värnamo rinner ån Lagan.',
+        swedish: 'I Värnamo finns en å som heter Lagan.',
         spanish: 'En Värnamo hay un río que se llama Lagan.'
     },
     {
-        swedish: 'Bruno Mathsson-museet finns i Värnamo.',
-        spanish: 'El museo de Bruno Mathsson está en Värnamo.'
+        swedish: 'Det finns ett Bruno Mathsson museum i Värnamo',
+        spanish:  ['En Värnamo hay un museo de Bruno Mathsson', 'Hay un museo de Bruno Mathsson en Värnamo.']
     },
     {
-        swedish: 'I stadens centrum finns många butiker.',
-        spanish: 'En el centro de la ciudad hay muchas tiendas.'
+        swedish: 'I stadens centrum finns butiker.',
+        spanish: 'En el centro de la ciudad hay tiendas.'
     },
     {
         swedish: 'Värnamo har en fotbollsarena.',
@@ -1723,15 +1708,11 @@ export let varnamoSentences = [
     },
     {
         swedish: 'Värnamo har en viktig järnvägsstation.',
-        spanish: 'Värnamo tiene una estación de tren importante.'
+        spanish: ['Värnamo tiene una estación de tren importante.', 'Värnamo tiene una importante estación de tren.']
     },
     {
-        swedish: 'Det finns många vandringsleder i skogarna.',
-        spanish: 'Hay muchos senderos para caminar en los bosques.'
-    },
-    {
-        swedish: 'Värnamo kyrka är väldigt gammal.',
-        spanish: 'La iglesia de Värnamo es muy antigua.'
+        swedish: 'Det finns flera kyrkor i Värnamo.',
+        spanish: 'Hay varias iglesias en Värnamo.'
     },
     {
         swedish: 'Det finns ett modernt sjukhus i staden.',
@@ -1742,37 +1723,29 @@ export let varnamoSentences = [
         spanish: 'Hay muchas cafeterías en Värnamo.'
     },
     {
-        swedish: 'Det finns en offentlig pool i Värnamo.',
-        spanish: 'Hay una piscina pública en Värnamo.'
-    },
-    {
-        swedish: 'Värnamo är känt för sin skandinaviska design.',
-        spanish: 'Värnamo es famosa por su diseño escandinavo.'
-    },
-    {
-        swedish: 'På vintern kan man åka skidor i närheten.',
-        spanish: 'En invierno, se puede esquiar en los alrededores.'
-    },
-    {
-        swedish: 'Det finns många sjöar att bada i nära Värnamo.',
-        spanish: 'Hay muchos lagos para nadar cerca de Värnamo.'
+        swedish: 'Det finns många sjöar nära värnamo.',
+        spanish: 'Hay muchos lagos cerca de värnamo.'
     },
     {
         swedish: 'Värnamo har ett stort bibliotek.',
         spanish: 'Värnamo tiene una biblioteca grande.'
     },
     {
-        swedish: 'Värnamo kommunhus ligger i centrum.',
-        spanish: 'El ayuntamiento de Värnamo está en el centro.'
-    },
-    {
         swedish: 'Det finns många skogar runt Värnamo.',
         spanish: 'Hay muchos bosques alrededor de Värnamo.'
+    },
+    {
+        swedish: 'Det finns två torg i värnamo centrum.',
+        spanish: 'Hay dos plazas en el centro de Värnamo.'
+    },
+    {
+        swedish: 'Jag och min familj bor i Värnamo.',
+        spanish: 'Mi familia y yo vivimos en Värnamo.'
     }
 
 ];
 
-export const questionSentences = [
+export let questionSentences = [
     {
         swedish: 'Vad heter du?',
         spanish: '¿Cómo te llamas?'
@@ -1852,5 +1825,151 @@ export const questionSentences = [
     {
         swedish: 'Varifrån får du dessa idéer?',
         spanish: '¿De dónde obtienes estas ideas?'
+    }
+];
+
+export let weatherNatureSentences = [
+    {
+        swedish: 'Det regnar i Stockholm.',
+        spanish: ['Llueve en Estocolmo.', 'Está lloviendo en Estocolmo.']
+    },
+    {
+        swedish: 'Solen skiner idag.',
+        spanish: ['El sol brilla hoy.', 'Hoy hace sol.']
+    },
+    {
+        swedish: 'Det snöar i norr.',
+        spanish: ['Nieva en el norte.', 'Está nevando en el norte.']
+    },
+    {
+        swedish: 'Himlen är blå.',
+        spanish: ['El cielo es azul.', 'El cielo está despejado.']
+    },
+    {
+        swedish: 'Det är kallt på vintern.',
+        spanish: ['Hace frío en invierno.', 'En invierno hace frío.']
+    },
+    {
+        swedish: 'Det blåser mycket.',
+        spanish: ['Hace mucho viento.', 'Sopla mucho viento.']
+    },
+    {
+        swedish: 'Det är varmt i juni.',
+        spanish: ['Hace calor en junio.', 'En junio hace calor.']
+    },
+    {
+        swedish: 'Det är molnigt idag.',
+        spanish: ['Está nublado hoy.', 'Hoy hay nubes.']
+    },
+    {
+        swedish: 'Träden är gröna på sommaren.',
+        spanish: ['Los árboles son verdes en verano.', 'Los árboles están verdes en verano.']
+    },
+    {
+        swedish: 'Vattnet är kallt i havet.',
+        spanish: ['El agua está fría en el mar.', 'El agua del mar está fría.']
+    },
+    {
+        swedish: 'Blommorna blommar på våren.',
+        spanish: ['Las flores florecen en primavera.', 'En primavera, las flores florecen.']
+    },
+    {
+        swedish: 'Sjöarna är frusna på vintern.',
+        spanish: ['Los lagos están congelados en invierno.', 'En invierno, los lagos se congelan.']
+    },
+    {
+        swedish: 'Det är dimmigt på morgonen.',
+        spanish: ['Hay niebla por la mañana.', 'Está neblinoso por la mañana.']
+    },
+    {
+        swedish: 'Jag ser en regnbåge.',
+        spanish: ['Veo un arcoíris.', 'Puedo ver un arcoíris.']
+    },
+    {
+        swedish: 'Luften är frisk i skogen.',
+        spanish: ['El aire es fresco en el bosque.', 'El aire en el bosque está fresco.']
+    },
+    {
+        swedish: 'Det är ljust på dagen.',
+        spanish: ['Hay luz durante el día.', 'Durante el día, hay luz.']
+    },
+    {
+        swedish: 'Havet är lugnt idag.',
+        spanish: ['El mar está tranquilo hoy.', 'Hoy el mar está en calma.']
+    },
+    {
+        swedish: 'Fåglarna sjunger på morgonen.',
+        spanish: ['Los pájaros cantan por la mañana.', 'Por la mañana, los pájaros cantan.']
+    },
+    {
+        swedish: 'Det är ofta mulet på hösten.',
+        spanish: ['A menudo está nublado en otoño.', 'En otoño, suele estar nublado.']
+    },
+    {
+        swedish: 'Det är mörkt på natten.',
+        spanish: ['Está oscuro por la noche.', 'Por la noche hay oscuridad.']
+    }
+];
+
+export let schoolSentences = [
+    {
+        swedish: 'Jag går till skolan varje dag.',
+        spanish: ['Voy a la escuela todos los días.', 'Voy al colegio todos los días.']
+    },
+    {
+        swedish: 'Vi har matematik på morgonen.',
+        spanish: ['Tenemos matemáticas por la mañana.', 'Por la mañana tenemos matemáticas.']
+    },
+    {
+        swedish: 'Hon tycker om att läsa böcker.',
+        spanish: ['Le gusta leer libros.', 'A ella le gusta leer libros.']
+    },
+    {
+        swedish: 'De lär sig engelska.',
+        spanish: ['Aprenden inglés.', 'Están aprendiendo inglés.']
+    },
+    {
+        swedish: 'Han skriver på tavlan.',
+        spanish: ['Él escribe en la pizarra.', 'Escribe en el pizarrón.']
+    },
+    {
+        swedish: 'Läraren undervisar i historia.',
+        spanish: ['El profesor enseña historia.', 'La maestra enseña historia.']
+    },
+    {
+        swedish: 'Vi har fysik på eftermiddagen.',
+        spanish: ['Tenemos física por la tarde.', 'Por la tarde tenemos física.']
+    },
+    {
+        swedish: 'Vi studerar geografi idag.',
+        spanish: ['Estudiamos geografía hoy.', 'Hoy estudiamos geografía.']
+    },
+    {
+        swedish: 'Jag läser en bok på biblioteket.',
+        spanish: ['Leo un libro en la biblioteca.', 'Estoy leyendo un libro en la biblioteca.']
+    },
+    {
+        swedish: 'Han har prov i biologi.',
+        spanish: ['Tiene un examen de biología.', 'Él tiene una prueba de biología.']
+    },
+    {
+        swedish: 'Hon gör läxor efter skolan.',
+        spanish: ['Hace los deberes después de la escuela.', 'Ella hace la tarea después del colegio.']
+    },
+    {
+        swedish: 'De har idrott två gånger i veckan.',
+        spanish: ['Tienen educación física dos veces a la semana.', 'Hacen deporte dos veces por semana.']
+    },
+    {
+        swedish: 'Jag tycker om musiklektionerna.',
+        spanish: ['Me gustan las clases de música.', 'Disfruto de las lecciones de música.']
+    },
+    {
+        swedish: 'Han gillar inte att göra matteproblem.',
+        spanish: ['No le gusta hacer problemas de matemáticas.', 'A él no le gusta resolver ejercicios de matemáticas.']
+    },
+    {
+        swedish: 'Vi har naturkunskap på fredagar.',
+        spanish: ['Tenemos ciencias naturales los viernes.', 'Los viernes tenemos clases de ciencias naturales.']
     }
 ];
